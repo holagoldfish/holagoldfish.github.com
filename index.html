@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="./css/index.css" />
+		<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="./js/index.js"></script>
+		<script type="text/javascript" src="./js/jquery-color.js"></script>
+		<script type="text/javascript" src="./js/navFixed-1.0.1.min.js"></script>
+
+		<script>
+			(function() {
+				if(!
+					/*@cc_on!@*/
+					0) return;
+				var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+				var i = e.length;
+				while(i--) {
+					document.createElement(e[i]);
+				}
+			})()
+		</script>
+	</head>
+	<body>
+		<section id="jl-sectionOne" class="jl-sectionOne">
+			<div class="mytip">
+				[ 重拾人生 ]
+				<p>只要你想开始,任何时候都不算晚</p>
+			</div>
+			<p class="jl-sectionOne-HI">嗨！欢迎来此地</p>
+			<div id='jl-down' class="jl-sectionOne-down" style="z-index: 110;bottom: 25px;">
+				<a href="#jl-sectionTwo" hidefocus="true"></a>
+			</div>
+			<div data-time="" data-imagebgs="" class="background-media  " backgroundsize="true" style="">
+				<video autoplay="autoplay" muted="muted" volume="0" poster="./img/baby.jpg" loop="loop" style="width: 100%; height: 100%;object-fit:cover;object-position:center center" class="section-background-video">
+					<source type="video/webm" src="video/1.webm">
+					<source type="video/mp4" src="video/1.mp4">
+				</video>
+			</div>
+		</section>
+
+		<section id="jl-nav">
+			<header class="container">
+				<nav>
+					<img class="nav-img" src="./img/1.jpg" />
+					<a href="#jl-sectionTwo" id="a-sectionTwo" hidefocus="true">个人简介</a>
+					<a href="#jl-sectionThree" id="a-sectionThree" hidefocus="true">专业技能</a>
+					<a href="#jl-sectionFour" id="a-sectionFour" hidefocus="true">工作经历</a>
+					<a href="#jl-sectionFive" id="a-sectionFive" hidefocus="true">项目经验</a>
+					<a href="#jl-sectionSix" id="a-sectionSix" hidefocus="true">联系方式</a>
+				</nav>
+			</header>
+		</section>
+
+		<section id="jl-sectionTwo" class="jl-sectionTwo" style="margin-top: 0px;">
+			<div class="container">
+				<div class="info-icon">
+					<img src="./img/github.png" class="link" />
+					<img class="headphoto" src="./img/1.jpg">
+					<img src="./img/email.png" class="link" />
+				</div>
+
+				<div class="info-text">
+					<div class="info-tleft">
+						<ul>
+							<li><span>姓名</span> | 胡莹</li>
+							<li><span>手机</span> | 18321333674</li>
+							<li><span>邮箱</span> |
+								<a href="mailto:howdy_hy@163.com" hidefocus="true">howdy_hy@163.com</a>
+							</li>
+							<li><span>学历</span> | 计算机专科</li>
+							</li>
+							<li><span>所在地</span> | 上海 - 浦东</li>
+							<li><span>GitHub</span> |
+								<a href="https://github.com/holagoldfish" hidefocus="true">https://github.com/holagoldfish</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="info-tright">
+						<p>我是一个诚恳踏实、兴趣广泛,拥有较强自学能力的人，工作态度好，热衷新技术研究</p>
+						<p>一年前端开发经验，前端熟悉HTML、CSS、Javascript、jquery、mui、websocket;了解mvvm等新技术</p>
+						<p>同时对后端开发有一定的了解： java、mysql、oracle</p><br />
+						<p>最近自己开发的了一款 HTML5 APP,包含前端(html5+mui)+后端(java+mysql)，查看源码
+							<a href="https://github.com/holagoldfish" style="font-size: 16px; color: red; cursor: hand;">请戳这里 </a>
+						</p>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="jl-sectionThree" class="jl-sectionThree">
+			<div class="container">
+				<div class="skill-title">
+					<h1>专业技能</h1>
+				</div>
+				<div class="skill-content">
+					<div class="skill">
+						<img src="img/skill-1.png" />
+						<div class="skillText">
+							<p>掌握HTML 和 HTML5新增的标签</p>
+							<p>Websocket双向通信,本地存储</p>
+						</div>
+						<div>HTML</div>
+					</div>
+					<div class="skill">
+						<img src="img/skill-4.png" />
+						<div class="skillText">
+							<p>掌握CSS 和 CSS3新增属性及mui框架，准确控制页面的布局、字体、颜色、背景和其它效果实现</p>
+						</div>
+						<div>CSS</div>
+					</div>
+					<div class="skill">
+						<img src="img/skill-3.png" />
+						<div class="skillText">
+							<p>掌握JS 和 JQuery,Ajax与后端交互,跨域请求</p>
+						</div>
+						<div>JavaScript</div>
+					</div>
+					<div class="skill">
+						<img src="img/skill-5.png" />
+						<div class="skillText">
+							<p>对后端语言 Java 有一定了解</p>
+							<p>了解数据库 mysql、oracle</p>
+							<p>熟悉Linux常用操作</p>
+						</div>
+						<div>其他</div>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="jl-sectionFour" class="jl-sectionFour">
+			<div class="container">
+				<div class="work-title">
+					<h1>工作经历</h1>
+				</div>
+				<div class="box">
+					<div id="boxImg">
+						<ul id="ul1">
+							<li class="li1">
+								<div class="workExp">
+									<img src="img/l_img-13.png" />
+									<div>
+										<h3>证大财富有限公司</h3>
+										<p>1、负责手机APP检测</p>
+										<p>2、负责公司内部理财系统检测、维护、linux部署</p>
+									</div>
+								</div>
+							</li>
+							<li class="li1">
+								<div class="workExp">
+									<img src="img/l_img-13.png" />
+									<div>
+										<h3>金鹿金融（易联天下）</h3>
+										<p>1、负责公司内网站自动化开发</p>
+										<p>2、负责手机APP检测</p>
+										<p>3、负责内部系统测试</p>
+										<p>4、学习前端开发</p>
+									</div>
+								</div>
+							</li>
+							<!--<li class="li1">
+							<a href="#">333</a>
+						</li>
+						<li class="li1">
+							<a>444</a>
+						</li>
+						<li class="li1">
+							<a>555</a>
+						</li>
+					-->
+						</ul>
+					</div>
+
+					<div class="boxLeft">
+						<</div>
+							<div class="boxRight">></div>
+							<div class="boxCurrentNum">
+								<span id="num1" class="boxnum mark-color"></span>
+								<span id="num2" class="boxnum"></span>
+								<!--<span id="num3" class="boxnum"></span>
+					<span id="num4" class="boxnum"></span>
+					<span id="num5" class="boxnum"></span>-->
+							</div>
+					</div>
+				</div>
+		</section>
+
+		<section id="jl-sectionFive" class="jl-sectionFive">
+			<div class="container">
+				<div class="skill-title">
+					<h1>项目经验</h1>
+				</div>
+				<div class="skill-content" style="width: 100%;margin: 0 auto; margin-top: 0px; padding-top: 40px;">
+					<div style="width:50%; color:black; font-size: 18px; letter-spacing: 2px; margin: 0 auto; text-align: left;">
+						<div>
+							<h1 style="display: inline-block;">H5 app</h1>
+							<a style="display: inline-block; margin-left:20px;" target="_blank" href="ProductH5APP.html">点击查看效果图</a>
+						</div>
+
+						<ul>
+							<li>此项目自己做的包含前后端(活动交流App小demo)</li>
+							<li>前端涉及到的技术：html5、mui、js、ajax、websocket</li>
+							<li>后端涉及到的技术：java、mysql</li>
+							<li>前端地址：
+								<a href="https://github.com/holagoldfish/H5APP" target="_blank">https://github.com/holagoldfish/H5APP</a>
+							</li>
+							<li>后端地址：
+								<a href="https://github.com/holagoldfish/H5APP-java" target="_blank">https://github.com/holagoldfish/H5APP-java</a>
+							</li>
+						</ul>
+					</div>
+					<div style="width: 50%; color:black; font-size: 18px;  margin-top: 40px;padding-top: 40px; letter-spacing: 2px; margin: 0 auto; text-align: left;">
+						<div>
+							<h1 style="display: inline-block;">理财网页</h1>
+							<a style="display: inline-block; margin-left:20px;" target="_blank" href="http://htmlpreview.github.io/?https://github.com/holagoldfish/finace/blob/master/finace2.html">点击查看效果图</a>
+						</div>
+
+						<ul>
+							<li>理财页面（响应式布局）</li>
+							<li>首页兼容iphone、ipad、安卓</li>
+							<li>github：
+								<a href="https://github.com/holagoldfish/finace" target="_blank">戳这里</a>
+							</li>
+						</ul>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="jl-sectionSix" class="jl-sectionSix">
+			<div class="container">
+				<div class="skill-title" style="margin-top: 200px;">
+					<h2>电话： 18321333674</h2>
+					<h1>邮箱： howdy_hy@163.com</h1>
+					<h1>法海大人，把我收入碗里吧！！！！</h1>
+				</div>
+			</div>
+		</section>
+
+	</body>
+</html>
