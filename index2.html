@@ -11,7 +11,7 @@
 		<script type="text/javascript" src="./js/index.js"></script>
 		<script type="text/javascript" src="./js/jquery-color.js"></script>
 		<script type="text/javascript" src="./js/navFixed-1.0.1.min.js"></script>
-
+        <script type="text/javascript" src="./js/print.js"></script>
 		<script>
 			(function() {
 				if(!
@@ -111,14 +111,16 @@
 					<div class="skill">
 						<img src="img/skill-4.png" />
 						<div class="skillText">
-							<p>掌握CSS 和 CSS3新增属性及mui框架，准确控制页面的布局、字体、颜色、背景和其它效果实现</p>
+							<p>掌握CSS 和 CSS3新增属性及mui框架</p>
+							<p>准确控制页面的布局和效果实现</p>
 						</div>
 						<div>CSS</div>
 					</div>
 					<div class="skill">
 						<img src="img/skill-3.png" />
 						<div class="skillText">
-							<p>掌握JS 和 JQuery,Ajax与后端交互,跨域请求</p>
+							<p>掌握JS 和 JQuery</p>
+							<p>Ajax与后端交互,跨域请求</p>
 						</div>
 						<div>JavaScript</div>
 					</div>
@@ -224,14 +226,57 @@
 			</div>
 		</section>
 
-		<section id="jl-sectionSix" class="jl-sectionSix">
-			<div class="container">
+	<!--	<section id="jl-sectionSix" class="jl-sectionSix">-->
+			<!--<div class="container">
 				<div class="skill-title" style="margin-top: 200px;color:black;">
 					<h2>电话： 18321333674</h2>
 					<h1>邮箱： howdy_hy@163.com</h1>
 					<h1>法海大人，把我收入碗里吧！！！！</h1>
 				</div>
-			</div>
-		</section>
+			</div>-->
+			
+		<!--	<section style="*margin-top: 80px; margin-top: 80px;">
+		  	<div class="boxRun">
+		 	<div>
+		   		 <div class="jl-content-sectionOne-title">
+		   		 <p>我叫胡莹</p> 
+	       		 <p>电话： 18321333674</p> 
+	       		 <p>邮箱： howdy_hy917@163.com</p> 
+	       		 <p>现坐标：上海浦东</p>
+	       		 <p>法海大人，把我收入碗里吧！！！！</p>
+	       		 </div>
+		   	</div>
+		   	</div>
+		   	</div>
+		  </section>
+			-->
+			
+		<!--</section>-->
+		
+		
+	
+		<section id="jl-sectionSix" class="jl-sectionSix" style="padding-top:80px;">
+			
+		  	<div class="boxRun">
+		 	<div  style="position: absolute; top:0;left: 0; bottom: 0; right: 0; width: 100%; height:80%;margin: auto; text-align: center;">
+		   		 <div class="jl-content-sectionOne-title">
+		   		 <p>电话： 18321333674</p>
+	       		 <p>邮箱：howdy_hy917@163.com</p>	       		 
+	       		 <p>现坐标：上海浦东</p>
+	       		 <p>法海大人，把我收入碗里吧！！！！</p>
+	       		 </div>
+		   	</div>
+		   	</div>
+		   	</div>
+		  </section>
+		
+		
+	 
+	 <script type="text/javascript">
+	 	$(function(){
+	 		var a = new Type($('.jl-content-sectionOne-title'), 80, '正在初始化...');
+			a.init();
+	 	});
+	 </script>
 	</body>
 </html>
